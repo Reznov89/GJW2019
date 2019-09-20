@@ -9,6 +9,11 @@ public class ChangeReality : MonoBehaviour
     public GameObject pisoRojo,
                       pisoAzul;
 
+void Start(){
+  pisoAzul.SetActive(false);
+
+}
+
     void Update()
     {
         if (Input.GetKey("m"))
