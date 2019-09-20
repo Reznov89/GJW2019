@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/sceneTodoJunto.unity
+    guid: 2ff1473e398ca6749a6c3082432e3c29
   m_configObjects: {}
