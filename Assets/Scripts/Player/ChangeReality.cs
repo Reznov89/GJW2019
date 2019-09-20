@@ -9,11 +9,16 @@ public class ChangeReality : MonoBehaviour
     public GameObject pisoRojo,
                       pisoAzul;
 
+void Start(){
+  pisoAzul.SetActive(false);
+
+}
+
     void Update()
     {
         if (Input.GetKey("m"))
         {
-         Invoke("CambiarPlano", 0.5f);
+         Invoke("CambiarPlano", 0.1f);
         }
     }
 
