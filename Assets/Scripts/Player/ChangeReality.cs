@@ -18,7 +18,7 @@ void Start(){
     {
         if (Input.GetKey("m"))
         {
-         Invoke("CambiarPlano", 0.5f);
+         Invoke("CambiarPlano", 0.1f);
         }
     }
 
